@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Titulo</title>
+    <style>
+        #hero *{
+            border: 1px solid red;
+        }
+
+        #hero {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -16,13 +26,38 @@
             <li><a href="#">Contacto</a></li>
         </menu> 
     </nav>
+    <main>
+        <section id="hero">
+            <div>
+                <h1>Bienvenidos a mi web</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, autem.</p>
+            </div>
+            <img src="https://via.placeholder.com/200x150" alt="">
+        </section>
 
-    <section>
-        <h1>Bienvenidos a mi web</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolores vitae tenetur nisi at asperiores architecto blanditiis velit, unde cumque.</p>
-        <img src="https://via.placeholder.com/200x150" alt="">
-    </section>
-    
+        <section>
+            <h2>Productos</h2>
+
+            <article>
+                <img src="https://via.placeholder.com/150" alt="">
+                <h3>Producto 1</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore, tempora!</p>
+                <button>Comprar</button>
+            </article>
+            <article>
+                <img src="https://via.placeholder.com/150" alt="">
+                <h3>Producto 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, esse.</p>
+                <button>Comprar</button>
+            </article>
+            <article>
+                <img src="https://via.placeholder.com/150" alt="">
+                <h3>Producto 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, quibusdam.</p>
+                <button>Comprar</button>
+            </article>
+        </section>
+    </main>
     <footer>
         <p>Hecho con 💖 </p>
     </footer>
